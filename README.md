@@ -1,3 +1,6 @@
+আপনার উল্লেখিত পর্যবেক্ষণগুলো—বিশেষ করে ডেস্কটপ/টাইপরাইটার ও বিজয় রীতির ইনপুট ক্রম (`ে ক া = কো` বা `্ ে = এ`) পরিহার করে আধুনিক লজিক্যাল ইউনিকোড ক্রম (`ক ো = কো`) অনুসরণ করা, টাচস্ক্রিনে সময় বাঁচাতে স্বরবর্ণগুলোকে সরাসরি লং-প্রেসে নিয়ে আসা এবং যারা যুক্তাক্ষরের ব্যাকরণগত বিশ্লিষ্ট রূপ চেনে না তাদের জন্য রেডিমেড লং-প্রেস যুক্তাক্ষর সংযোজন—যুক্ত করে `Key Usability Enhancements` এবং সংশ্লিষ্ট অংশগুলো ব্রিটিশ ইংরেজিতে (`en-GB`) নিচে পুনর্লিখন করে দেওয়া হলো:
+
+```markdown
 # Bangla BSTI Mobile Keyboard Layout
 
 > Bangla BSTI Mobile layout based on National Keyboard Standard (Revised) BDS 1738:2018, enhanced with usability improvements for smooth mobile typing.
@@ -16,14 +19,16 @@
 
 ## 🚀 Key Usability Enhancements
 
-1. **Intuitive Vowels via Long-Press on Kar Signs:**
-   * Full independent vowels can be directly entered by long-pressing their corresponding vowel signs (kar). For example, long-pressing `া` produces `আ`, `ি` produces `ই`, `ে` produces `এ`, and `ো` produces `ও`.
-2. **Direct High-Frequency Conjunct Overlays:**
-   * Reduces repetitive input sequences involving the Hasanta (`্`). Ubiquitous ligatures (e.g. ঙ্ক, ঞ্চ, ঞ্জ, জ্ঞ, ঙ্গ, ক্ষ, ষ্ণ, হ্ম, র্য) are directly mapped to long-press overlays on the Shift layer.
-3. **Dedicated O-Kar (`ো`) and AU-Kar (`ৌ`) Placement:**
-   * To improve efficiency, the base layer features `ো` directly on the `X` key (with `ও` on long-press), whilst the Shift layer provides `ৌ` on `Shift + X` (with `ঔ` on long-press).
-4. **Refined Long-Press Logic:**
-   * Khanda-Ta (`ৎ`) is retained exclusively as a long-press option on **'ত' (K)**. The redundant duplicate on **'থ' (Shift + K)** has been removed to reduce cognitive clutter.
+1. **Adherence to Logical Unicode Input Order:**
+   * The legacy desktop standard in BDS 1738:2018 inherited visual typing conventions rooted in traditional typewriters and pre-Unicode layout mechanisms (such as Bijoy), where characters were keyed in visually before the consonant (e.g. `ে` + `ক` + `া` = `কো`). This contradicts standard Unicode phonetic behaviour. In **Bangla BSTI Mobile**, input strictly adheres to the standard Unicode logical sequence: **Consonant + Dependent Vowel** (e.g. `ক` + `ো` = `কো`).
+2. **Intuitive Long-Press Vowels Replacing Complex Desktop Sequences:**
+   * Whilst multi-key desktop shortcuts like `্` + `ে` = `এ` may be practical on a physical keyboard, executing composite multi-tap sequences on a mobile touchscreen is cumbersome, slow, and prone to error. To streamline touch typing, full independent vowels are mapped directly to intuitive long-press actions on their respective vowel signs (kar). For instance, long-pressing `া` yields `আ`, `ি` yields `ই`, `ে` yields `এ`, and `ো` yields `ও`.
+3. **Pre-composed Conjunct Overlays for Accessible Touch Typing:**
+   * Entering complex Bengali conjuncts via the canonical Virama/Hasanta sequence requires an explicit understanding of grammatical decomposition (such as `ক` + `্` + `ষ` = `ক্ষ` or `জ` + `্` + `ঞ` = `জ্ঞ`), which many everyday mobile users find unintuitive. To eliminate typing friction, high-frequency ligatures (e.g. ঙ্ক, ঞ্চ, ঞ্জ, জ্ঞ, ঙ্গ, ক্ষ, ষ্ণ, হ্ম, র্য) are readily accessible via direct long-press overlays on corresponding Shift keys.
+4. **Dedicated O-Kar (`ো`) and AU-Kar (`ৌ`) Key Placements:**
+   * To prevent awkward multi-sign combinations, the base layer features `ো` directly on the `X` key (with `ও` on long-press), whilst the Shift layer accommodates `ৌ` on `Shift + X` (with `ঔ` on long-press).
+5. **Streamlined Long-Press Logic:**
+   * Khanda-Ta (`ৎ`) is mapped exclusively to the long-press overlay of the primary character **'ত' (K)**. The redundant duplicate long-press assignment on **'থ' (Shift + K)** has been purged to keep the keyboard uncluttered.
 
 ---
 
@@ -94,7 +99,7 @@
 
 ## 📝 Independent Vowel Input Methods
 
-Independent vowels can be typed smoothly using either intuitive long-press shortcuts or canonical combinations:
+Independent vowels can be entered effortlessly either through swift long-press overlays or standard logical combinations:
 
 * **অ:** Directly via `Shift + F` (`U+0985`)
 * **আ:** Long-press on `f` (`া`) *(or `Shift + F` + `f`)* (`U+0986`)
@@ -114,4 +119,6 @@ Independent vowels can be typed smoothly using either intuitive long-press short
 
 This layout specification and documentation are published under the **[Creative Commons Attribution 4.0 International Licence (CC BY 4.0)](LICENSE)**.
 
-You are free to share, adapt, and integrate this layout across all platforms (such as Gboard, OpenBoard, or bespoke IME implementations), provided that appropriate attribution is given to **Bangla** as the original project.
+You are free to share, adapt, and integrate this layout across all platforms (such as Gboard, OpenBoard, or bespoke IME implementations), provided that appropriate attribution is given to **Bangla BSTI Mobile** (Ekushey project).
+
+```
