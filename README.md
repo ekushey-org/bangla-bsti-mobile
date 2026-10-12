@@ -24,8 +24,6 @@
    * Entering complex Bengali conjuncts via the canonical Virama/Hasanta sequence requires an explicit understanding of grammatical decomposition (such as `ক` + `্` + `ষ` = `ক্ষ` or `জ` + `্` + `ঞ` = `জ্ঞ`), which many everyday mobile users find unintuitive. To eliminate typing friction, high-frequency ligatures (e.g. ঙ্ক, ঞ্চ, ঞ্জ, জ্ঞ, ঙ্গ, ক্ষ, ষ্ণ, হ্ম, ব়্য) are readily accessible via direct long-press overlays on corresponding Shift keys.
 4. **Dedicated O-Kar (`ো`) and AU-Kar (`ৌ`) Key Placements:**
    * To prevent awkward multi-sign combinations, the base layer features `ো` directly on the `X` key (with `ও` on long-press), whilst the Shift layer accommodates `ৌ` on `Shift + X` (with `ঔ` on long-press).
-5. **Streamlined Long-Press Logic:**
-   * Khanda-Ta (`ৎ`) is mapped exclusively to the long-press overlay of the primary character **'ত' (K)**. The redundant duplicate long-press assignment on **'থ' (Shift + K)** has been purged to keep the keyboard uncluttered.
 
 ---
 
