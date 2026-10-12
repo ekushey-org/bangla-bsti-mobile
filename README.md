@@ -21,7 +21,7 @@
 2. **Intuitive Long-Press Vowels Replacing Complex Desktop Sequences:**
    * Whilst multi-key desktop shortcuts like `্` + `ে` = `এ` may be practical on a physical keyboard, executing composite multi-tap sequences on a mobile touchscreen is cumbersome, slow, and prone to error. To streamline touch typing, full independent vowels are mapped directly to intuitive long-press actions on their respective vowel signs (kar). For instance, long-pressing `া` yields `আ`, `ি` yields `ই`, `ে` yields `এ`, and `ো` yields `ও`.
 3. **Pre-composed Conjunct Overlays for Accessible Touch Typing:**
-   * Entering complex Bengali conjuncts via the canonical Virama/Hasanta sequence requires an explicit understanding of grammatical decomposition (such as `ক` + `্` + `ষ` = `ক্ষ` or `জ` + `্` + `ঞ` = `জ্ঞ`), which many everyday mobile users find unintuitive. To eliminate typing friction, high-frequency ligatures (e.g. ঙ্ক, ঞ্চ, ঞ্জ, জ্ঞ, ঙ্গ, ক্ষ, ষ্ণ, হ্ম, র্য) are readily accessible via direct long-press overlays on corresponding Shift keys.
+   * Entering complex Bengali conjuncts via the canonical Virama/Hasanta sequence requires an explicit understanding of grammatical decomposition (such as `ক` + `্` + `ষ` = `ক্ষ` or `জ` + `্` + `ঞ` = `জ্ঞ`), which many everyday mobile users find unintuitive. To eliminate typing friction, high-frequency ligatures (e.g. ঙ্ক, ঞ্চ, ঞ্জ, জ্ঞ, ঙ্গ, ক্ষ, ষ্ণ, হ্ম, ব়্য) are readily accessible via direct long-press overlays on corresponding Shift keys.
 4. **Dedicated O-Kar (`ো`) and AU-Kar (`ৌ`) Key Placements:**
    * To prevent awkward multi-sign combinations, the base layer features `ো` directly on the `X` key (with `ও` on long-press), whilst the Shift layer accommodates `ৌ` on `Shift + X` (with `ঔ` on long-press).
 5. **Streamlined Long-Press Logic:**
@@ -33,7 +33,7 @@
 
 ### 1. Top Row (Q – P)
 
-| Key | Normal | Unicode | Shift | Unicode | Shift Overlay / Conjunct | Unicode Sequence | Description |
+| Key | Normal | Unicode | Shift | Unicode | Long-Press / Overlay | Unicode Sequence | Description |
 | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Q** | ঙ | `U+0999` | ং | `U+0982` | **ঙ্ক** | `U+0999 U+09CD U+0995` | NGA / Anusvara / NG-KA |
 | **W** | য | `U+09AF` | য় | `U+09DF` | — | — | YA / YYA |
@@ -90,7 +90,7 @@
 | **ক্ষ** | ক + ্ + ষ | `U+0995` + `U+09CD` + `U+09B7` | `J` (long-press on খ) |
 | **ষ্ণ** | ষ + ্ + ণ | `U+09B7` + `U+09CD` + `U+09A3` | `N` (long-press on ষ) |
 | **হ্ম** | হ + ্ + ম | `U+09B9` + `U+09CD` + `U+09AE` | `M` (long-press on শ) |
-| **র্য** | র + ্ + য | `U+09B0` + `U+09CD` + `U+09AF` | `V` (long-press on ল) |
+| **ব়্য** | ব + ় + ্ + য | `U+09AC` + `U+09BC` + `U+09CD` + `U+09AF` | `V` (long-press on ল) |
 
 ---
 
@@ -99,16 +99,16 @@
 Independent vowels can be entered effortlessly either through swift long-press overlays or standard logical combinations:
 
 * **অ:** Directly via `Shift + F` (`U+0985`)
-* **আ:** Long-press on `f` (`া`) *(or `Shift + F` + `f`)* (`U+0986`)
-* **ই:** Long-press on `d` (`ি`) *(or `Shift + F` + `d`)* (`U+0987`)
-* **ঈ:** Long-press on `Shift + D` (`ী`) *(or `Shift + F` + `Shift + D`)* (`U+0988`)
-* **উ:** Long-press on `s` (`ু`) *(or `Shift + F` + `s`)* (`U+0989`)
-* **ঊ:** Long-press on `Shift + S` (`ূ`) *(or `Shift + F` + `Shift + S`)* (`U+098A`)
-* **ঋ:** Long-press on `a` (`ৃ`) *(or `Shift + F` + `a`)* (`U+098B`)
-* **এ:** Long-press on `c` (`ে`) *(or `Shift + F` + `c`)* (`U+098F`)
-* **ঐ:** Long-press on `Shift + C` (`ৈ`) *(or directly on Shift)* (`U+0990`)
-* **ও:** Long-press on `x` (`ো`) *(or `Shift + F` + `x`)* (`U+0993`)
-* **ঔ:** Long-press on `Shift + X` (`ৌ`) *(or directly on Shift)* (`U+0994`)
+* **আ:** Long-press on `f` (`া`) (`U+0986`)
+* **ই:** Long-press on `d` (`ি`) (`U+0987`)
+* **ঈ:** Long-press on `Shift + D` (`ী`) (`U+0988`)
+* **উ:** Long-press on `s` (`ু`) (`U+0989`)
+* **ঊ:** Long-press on `Shift + S` (`ূ`) (`U+098A`)
+* **ঋ:** Long-press on `a` (`ৃ`) (`U+098B`)
+* **এ:** Long-press on `c` (`ে`) (`U+098F`)
+* **ঐ:** Long-press on `Shift + C` (`ৈ`) (`U+0990`)
+* **ও:** Long-press on `x` (`ো`) (`U+0993`)
+* **ঔ:** Long-press on `Shift + X` (`ৌ`) (`U+0994`)
 
 ---
 
