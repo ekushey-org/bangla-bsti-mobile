@@ -31,50 +31,95 @@
 
 ## ⌨️ Key Mapping & Unicode Specification
 
-### 1. Top Row (Q – P)
+---
 
-| Key | Normal | Unicode | Shift | Unicode | Long-Press / Overlay | Unicode Sequence | Description |
-| :---: | :---: | :---: | :---: | :---: | :---: | :--- | :--- |
-| **Q** | ঙ | `U+0999` | ং | `U+0982` | **ঙ্ক** | `U+0999 U+09CD U+0995` | NGA / Anusvara / NG-KA |
-| **W** | য | `U+09AF` | য় | `U+09DF` | — | — | YA / YYA |
-| **E** | ড | `U+09A1` | ঢ | `U+09A2` | — | — | DDA / DDHA |
-| **R** | প | `U+09AA` | ফ | `U+09AB` | — | — | PA / PHA |
-| **T** | ট | `U+099F` | ঠ | `U+09A0` | — | — | TTA / TTHA |
-| **Y** | চ | `U+099A` | ছ | `U+099B` | **ঞ্চ** | `U+099E U+09CD U+099A` | CA / CHA / NYA-CA |
-| **U** | জ | `U+099C` | ঝ | `U+099D` | **জ্ঞ** | `U+099C U+09CD U+099E` | JA / JHA / JA-NYA |
-| **I** | হ | `U+09B9` | ঞ | `U+099E` | **ঞ্জ** | `U+099E U+09CD U+099C` | HA / NYA / NYA-JA |
-| **O** | গ | `U+0997` | ঘ | `U+0998` | **ঙ্গ** | `U+0999 U+09CD U+0997` | GA / GHA / NG-GA |
-| **P** | ড় | `U+09DC` | ঢ় | `U+09DD` | — | — | RRA / RRHA |
+### 🟢 1. Normal Mode Layer
+
+#### Top Row (Q – P)
+
+| Key | Output | Unicode | Long-Press / Overlay | Unicode Sequence | Description |
+| :---: | :---: | :---: | :---: | :---: | :--- |
+| **Q** | ঙ | `U+0999` | — | — | Bengali Letter NGA |
+| **W** | য | `U+09AF` | — | — | Bengali Letter YA |
+| **E** | ড | `U+09A1` | — | — | Bengali Letter DDA |
+| **R** | প | `U+09AA` | — | — | Bengali Letter PA |
+| **T** | ট | `U+099F` | — | — | Bengali Letter TTA |
+| **Y** | চ | `U+099A` | — | — | Bengali Letter CA |
+| **U** | জ | `U+099C` | — | — | Bengali Letter JA |
+| **I** | হ | `U+09B9` | — | — | Bengali Letter HA |
+| **O** | গ | `U+0997` | — | — | Bengali Letter GA |
+| **P** | ড় | `U+09DC` | — | — | Bengali Letter RRA |
+
+#### Home Row (A – L)
+
+| Key | Output | Unicode | Long-Press / Overlay | Unicode Sequence | Description |
+| :---: | :---: | :---: | :---: | :---: | :--- |
+| **A** | ৃ | `U+09C3` | **ঋ** | `U+098B` | Bengali Vowel Sign Vocalic R / Letter Vocalic R |
+| **S** | ু | `U+09C1` | **উ** | `U+0989` | Bengali Vowel Sign U / Letter U |
+| **D** | ি | `U+09BF` | **ই** | `U+0987` | Bengali Vowel Sign I / Letter I |
+| **F** | া | `U+09BE` | **আ** | `U+0986` | Bengali Vowel Sign AA / Letter AA |
+| **G** | ্ | `U+09CD` | — | — | Bengali Sign Virama (Hasanta) |
+| **H** | ব | `U+09AC` | — | — | Bengali Letter BA |
+| **J** | ক | `U+0995` | — | — | Bengali Letter KA |
+| **K** | ত | `U+09A4` | **ৎ** | `U+09CE` | Bengali Letter TA / Letter Khanda Ta |
+| **L** | দ | `U+09A6` | — | — | Bengali Letter DA |
+
+#### Bottom Row (Z – M)
+
+| Key | Output | Unicode | Long-Press / Overlay | Unicode Sequence | Description |
+| :---: | :---: | :---: | :---: | :---: | :--- |
+| **Z** | ্য | `U+09CD U+09AF` | — | — | Ya-phala (Subjoined YA) |
+| **X** | ো | `U+09CB` | **ও** | `U+0993` | Bengali Vowel Sign O / Letter O |
+| **C** | ে | `U+09C7` | **এ** | `U+098F` | Bengali Vowel Sign E / Letter E |
+| **V** | র | `U+09B0` | — | — | Bengali Letter RA |
+| **B** | ন | `U+09A8` | — | — | Bengali Letter NA |
+| **N** | স | `U+09B8` | — | — | Bengali Letter SA |
+| **M** | ম | `U+09AE` | **ঃ** | `U+0983` | Bengali Letter MA / Sign Visarga |
 
 ---
 
-### 2. Home Row (A – L)
+### 🔵 2. Shift Mode Layer
 
-| Key | Normal | Unicode | Shift | Unicode | Long-Press / Overlay | Unicode | Description |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **A** | ৃ | `U+09C3` | ঽ | `U+09BD` | **ঋ** (Normal) | `U+098B` | Vocalic R Sign / Avagraha / Vocalic R |
-| **S** | ু | `U+09C1` | ূ | `U+09C2` | **উ** (Normal) / **ঊ** (Shift) | `U+0989` / `U+098A` | Vowel Sign U, UU & Full Letters |
-| **D** | ি | `U+09BF` | ী | `U+09C0` | **ই** (Normal) / **ঈ** (Shift) | `U+0987` / `U+0988` | Vowel Sign I, II & Full Letters |
-| **F** | া | `U+09BE` | অ | `U+0985` | **আ** (Normal) | `U+0986` | Vowel Sign AA / Letter A / Letter AA |
-| **G** | ্ | `U+09CD` | ্‌ | `U+09CD` | — | — | Sign Virama (Hasanta) |
-| **H** | ব | `U+09AC` | ভ | `U+09AD` | — | — | BA / BHA |
-| **J** | ক | `U+0995` | খ | `U+0996` | **ক্ষ** (Shift) | `U+0995 U+09CD U+09B7` | KA / KHA / KA-SSA |
-| **K** | ত | `U+09A4` | থ | `U+09A5` | **ৎ** (Normal long-press) | `U+09CE` | TA / THA (ৎ removed from থ) |
-| **L** | দ | `U+09A6` | ধ | `U+09A7` | — | — | DA / DHA |
+#### Top Row (Q – P)
 
----
+| Key | Output | Unicode | Long-Press / Overlay | Unicode Sequence | Description |
+| :---: | :---: | :---: | :---: | :---: | :--- |
+| **Q** | ং | `U+0982` | **ঙ্ক** | `U+0999 U+09CD U+0995` | Bengali Sign Anusvara / NG-KA Conjunct |
+| **W** | য় | `U+09DF` | — | — | Bengali Letter YYA |
+| **E** | ঢ | `U+09A2` | — | — | Bengali Letter DDHA |
+| **R** | ফ | `U+09AB` | — | — | Bengali Letter PHA |
+| **T** | ঠ | `U+09A0` | — | — | Bengali Letter TTHA |
+| **Y** | ছ | `U+099B` | **ঞ্চ** | `U+099E U+09CD U+099A` | Bengali Letter CHA / NYA-CA Conjunct |
+| **U** | ঝ | `U+099D` | **জ্ঞ** | `U+099C U+09CD U+099E` | Bengali Letter JHA / JA-NYA Conjunct |
+| **I** | ঞ | `U+099E` | **ঞ্জ** | `U+099E U+09CD U+099C` | Bengali Letter NYA / NYA-JA Conjunct |
+| **O** | ঘ | `U+0998` | **ঙ্গ** | `U+0999 U+09CD U+0997` | Bengali Letter GHA / NG-GA Conjunct |
+| **P** | ঢ় | `U+09DD` | — | — | Bengali Letter RRHA |
 
-### 3. Bottom Row (Z – M)
+#### Home Row (A – L)
 
-| Key | Normal | Unicode | Shift | Unicode | Long-Press / Overlay | Unicode Sequence | Description |
-| :---: | :---: | :---: | :---: | :---: | :---: | :--- | :--- |
-| **Z** | ্য | `U+09CD U+09AF` | ্য | `U+09CD U+09AF` | — | — | Ya-phala (Subjoined Ya) |
-| **X** | ো | `U+09CB` | ৌ | `U+09CC` | **ও** (Normal) / **ঔ** (Shift) | `U+0993` / `U+0994` | Vowel Sign O, AU & Full Letters |
-| **C** | ে | `U+09C7` | ৈ | `U+09C8` | **এ** (Normal) / **ঐ** (Shift) | `U+098F` / `U+0990` | Vowel Sign E, AI & Full Letters |
-| **V** | র | `U+09B0` | ল | `U+09B2` | **র্য** (Shift) | `U+09B0 U+09CD U+09AF` | RA / LA / Ref-Ya |
-| **B** | ন | `U+09A8` | ণ | `U+09A3` | **ঞ্চ** (Shift alt) | `U+099E U+09CD U+099A` | NA / NNA / NYA-CA |
-| **N** | স | `U+09B8` | ষ | `U+09B7` | **ষ্ণ** (Shift) | `U+09B7 U+09CD U+09A3` | SA / SSA / SSA-NNA |
-| **M** | ম | `U+09AE` | শ | `U+09B6` | **ঃ** (Normal) / **হ্ম** (Shift) | `U+0983` / `U+09B9 U+09CD U+09AE` | MA / SHA / Visarga / HA-MA |
+| Key | Output | Unicode | Long-Press / Overlay | Unicode Sequence | Description |
+| :---: | :---: | :---: | :---: | :---: | :--- |
+| **A** | ঽ | `U+09BD` | — | — | Bengali Sign Avagraha |
+| **S** | ূ | `U+09C2` | **ঊ** | `U+098A` | Bengali Vowel Sign UU / Letter UU |
+| **D** | ী | `U+09C0` | **ঈ** | `U+0988` | Bengali Vowel Sign II / Letter II |
+| **F** | অ | `U+0985` | — | — | Bengali Letter A |
+| **G** | ্‌ | `U+09CD` | — | — | Bengali Sign Virama (Hasanta alternate) |
+| **H** | ভ | `U+09AD` | — | — | Bengali Letter BHA |
+| **J** | খ | `U+0996` | **ক্ষ** | `U+0995 U+09CD U+09B7` | Bengali Letter KHA / KA-SSA Conjunct |
+| **K** | থ | `U+09A5` | — | — | Bengali Letter THA |
+| **L** | ধ | `U+09A7` | — | — | Bengali Letter DHA |
+
+#### Bottom Row (Z – M)
+
+| Key | Output | Unicode | Long-Press / Overlay | Unicode Sequence | Description |
+| :---: | :---: | :---: | :---: | :---: | :--- |
+| **Z** | ্য | `U+09CD U+09AF` | — | — | Ya-phala (Subjoined YA) |
+| **X** | ৌ | `U+09CC` | **ঔ** | `U+0994` | Bengali Vowel Sign AU / Letter AU |
+| **C** | ৈ | `U+09C8` | **ঐ** | `U+0990` | Bengali Vowel Sign AI / Letter AI |
+| **V** | ল | `U+09B2` | **ব়্য** | `U+09AC U+09BC U+09CD U+09AF` | Bengali Letter LA / Subjoined Ref-Ya Conjunct |
+| **B** | ণ | `U+09A3` | **ঞ্চ** | `U+099E U+09CD U+099A` | Bengali Letter NNA / NYA-CA Conjunct (Alternate) |
+| **N** | ষ | `U+09B7` | **ষ্ণ** | `U+09B7 U+09CD U+09A3` | Bengali Letter SSA / SSA-NNA Conjunct |
+| **M** | শ | `U+09B6` | **হ্ম** | `U+09B9 U+09CD U+09AE` | Bengali Letter SHA / HA-MA Conjunct |
 
 ---
 
