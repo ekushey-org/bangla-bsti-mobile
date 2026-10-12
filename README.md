@@ -1,6 +1,3 @@
-আপনার উল্লেখিত পর্যবেক্ষণগুলো—বিশেষ করে ডেস্কটপ/টাইপরাইটার ও বিজয় রীতির ইনপুট ক্রম (`ে ক া = কো` বা `্ ে = এ`) পরিহার করে আধুনিক লজিক্যাল ইউনিকোড ক্রম (`ক ো = কো`) অনুসরণ করা, টাচস্ক্রিনে সময় বাঁচাতে স্বরবর্ণগুলোকে সরাসরি লং-প্রেসে নিয়ে আসা এবং যারা যুক্তাক্ষরের ব্যাকরণগত বিশ্লিষ্ট রূপ চেনে না তাদের জন্য রেডিমেড লং-প্রেস যুক্তাক্ষর সংযোজন—যুক্ত করে `Key Usability Enhancements` এবং সংশ্লিষ্ট অংশগুলো ব্রিটিশ ইংরেজিতে (`en-GB`) নিচে পুনর্লিখন করে দেওয়া হলো:
-
-```markdown
 # Bangla BSTI Mobile Keyboard Layout
 
 > Bangla BSTI Mobile layout based on National Keyboard Standard (Revised) BDS 1738:2018, enhanced with usability improvements for smooth mobile typing.
@@ -120,5 +117,3 @@ Independent vowels can be entered effortlessly either through swift long-press o
 This layout specification and documentation are published under the **[Creative Commons Attribution 4.0 International Licence (CC BY 4.0)](LICENSE)**.
 
 You are free to share, adapt, and integrate this layout across all platforms (such as Gboard, OpenBoard, or bespoke IME implementations), provided that appropriate attribution is given to **Bangla BSTI Mobile** (Ekushey project).
-
-```
